@@ -16,10 +16,8 @@
 title: Pos UEL - Fundamentos em Big Data
 email: marc.queiroz
 description: >- # this means to ignore newlines until "baseurl:"
-  Project related to teaching. Here you can find materials about 
-  Computer Science disciplines, like Compilers, Computer Networks,
-  Formal Languages. Including materials about standalone classes 
-  about Regular Expressions and Blockchain.
+  This class is about Big Data/Data Science.
+  Related to the skills for data mining to support business decisions.
 baseurl: "/pos-uel-big-data" # the subpath of your site, e.g. /blog
 url: "marc-queiroz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
