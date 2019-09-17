@@ -4,7 +4,7 @@ title:  "Pós UEL - Introdução ao Python"
 date:   2019-09-13 16:00:00 -0300
 categories: pos uel jupyter notebook python3 2019
 ---
-## Bem-vindos a disciplina a aula de programação Introdução ao Python.
+## Bem-vindos a disciplina de programação Introdução ao Python.
 
 Nesse curso vamos aprender conceitos básicos de programação em Python.
 
@@ -75,9 +75,4 @@ Gostaria de agradecer ao DSA - Data Science Academy por disponibilizar o materia
 
 Para maiores informações [Python Fundamentos para Análise de Dados](https://www.datascienceacademy.com.br/course?courseid=python-fundamentos)
 
-
-
-
-
-
-
+Obrigado.
