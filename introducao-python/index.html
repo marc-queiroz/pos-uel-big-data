@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<!-- <link rel="stylesheet" href="css/theme/black.css"> -->
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+                    <h1>Introdução ao Python</h1>
+                    https://marc-queiroz.github.io/pos-uel-big-data/
+                </section>
+				<section>
+					<h3>Pós gradução em Big Data 2019</h3>
+                </section>
+                <section>
+                  Pré-requisitos da aula de hoje:
+                  <ul>
+                    <li>
+                      Instalação da distribuição do Anaconda
+                    </li>
+                    <li>
+                      Rodar localmente Notebooks Jupyter
+                    </li>
+                  </ul>
+                </section>
+                <section>
+                  <h2>
+                    <a href="https://github.com/marc-queiroz/PythonFundamentos/tree/master/Cap02/Notebooks">Trilha</a>
+                  </h2>
+                  <ul>
+                    <li>Números e operações matemáticas</li>
+                    <li>Variáveis e operadores</li>
+                    <li>Strings e indexação</li>
+                    <li>Listas - Estruturas de dados</li>
+                    <li>Dicionários</li>
+                    <li>Tuplas</li>
+                    <li>Exercícios</li>
+                  </ul>
+                </section>
+                <section>
+                  <h2>
+                    <a href="https://github.com/marc-queiroz/PythonFundamentos/tree/master/Cap03/Notebooks">Trilha</a>
+                  </h2>
+                  <ul>
+                    <li>Condicionais - if/else/elif</li>
+                    <li>Loop For</li>
+                    <li>Pass break continue</li>
+                    <li>Exercícios</li>
+                    <li>Métodos / Funções</li>
+                    <li>Expressões Lambda</li>
+                    <li>Exercícios</li>
+                  </ul>
+                </section>
+                <section>
+                  <h2>
+                    <a href="https://github.com/marc-queiroz/PythonFundamentos/tree/master/Cap04/Notebooks">Trilha</a>
+                  </h2>
+                  <ul>
+                    <li>Leitura e gravação de arquivos</li>
+                    <li>Operações com datasets</li>
+                    <li>Manipulando arquivos</li>
+                    <li>Módulos e pacotes</li>
+                    <li>Funções map e reduce</li>
+                    <li>Função Filter</li>
+                    <li>List comprehension</li>
+                  </ul>
+                </section>
+                <section>
+                  <h2>
+                    <a href="https://github.com/marc-queiroz/PythonFundamentos/tree/master/Cap04/Notebooks">Trilha</a>
+                  </h2>
+                  <ul>
+                    <li>Zip e Enumerate</li>
+                    <li>Exercícios</li>
+                  </ul>
+                </section>
+                <section>
+                  <h2>
+                    <a href="https://github.com/marc-queiroz/PythonFundamentos/tree/master/Cap05/Notebooks">Trilha</a>
+                  </h2>
+                  <ul>
+                    <li>POO - Programação Orientada à Objetos</li>
+                    <li>Classes e Objetos</li>
+                    <li>Métodos</li>
+                    <li>Herança</li>
+                    <li>Métodos especiais</li>
+                    <li>Exercícios</li>
+                  </ul>
+                </section>
+                <section>
+                  <h2>
+                    <a href="https://github.com/marc-queiroz/PythonFundamentos/tree/master/Cap06/Notebooks">Trilha</a>
+                  </h2>
+                  <ul>
+                    <li>Criando um banco de dados SQLite</li>
+                    <li>Insert de dados no SQLite</li>
+                    <li>Insert de dados usando variáveis</li>
+                    <li>Select no SQLite</li>
+                    <li>Update e Delete no SQL</li>
+                    <li>Criando gráficos com Matplotlib e SQLite</li>
+                    <li>Criando um Banco de dados no MongoDB</li>
+                  </ul>
+                </section>
+                <section>
+                  <h2>
+                    <a href="https://github.com/marc-queiroz/PythonFundamentos/tree/master/Cap06/Notebooks">Trilha</a>
+                  </h2>
+                  <ul>
+                    <li>Retornando dados do MongoDB</li>
+                    <li>Stream de dados do twitter, Pandas e Scikit Learn</li>
+                  </ul>
+                </section>
+                <!-- <section>
+                  <h2>
+                  </h2>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </section> -->
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                math: {
+					// mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+					config: 'TeX-AMS_HTML-full',
+					TeX: {
+						Macros: {
+							R: '\\mathbb{R}',
+							set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+						}
+					}
+				},
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/math/math.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
