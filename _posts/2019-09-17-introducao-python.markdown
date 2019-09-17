@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pós UEL - Introdução ao Python"
-date:   2019-09-13 16:00:00 -0300
+date:   2019-09-21 08:00:00 -0300
 categories: pos uel jupyter notebook python3 2019
 ---
 ## Bem-vindos a disciplina de programação Introdução ao Python.
