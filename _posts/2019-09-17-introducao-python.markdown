@@ -65,6 +65,10 @@ Para acessar nossos Slides, acessem o link: [Slides](/pos-uel-big-data/introduca
 * Retornando dados do MongoDB
 * Exemplo de captura de stream de dados do twitter
 
+Existe a possibilidade de acessar os notebooks Jupyter diretamente da Web, apenas com permissão de leitura. 
+
+[Binder - Introdução ao Python - Online (ReadOnly)](https://mybinder.org/v2/gh/marc-queiroz/PythonFundamentos/master)
+
 Como requisitos deveremos instalar a aplicação Jupyter disponível através do pacote Anaconda.
 
 Faça o download da versão para o seu sistema operacional, aqui:
