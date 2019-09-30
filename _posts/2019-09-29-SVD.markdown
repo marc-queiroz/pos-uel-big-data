@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "SVD - Singular Value Decomposition"
+date:   2019-09-21 08:00:00 -0300
+categories: pos uel SVD kaggle jupyter notebook python3 2019
+---
+## SVD - Decomposição em valores singulares
+
+[Kaggle SVD example](https://www.kaggle.com/marcqueiroz/simple-svd-movie-recommender)
+
+### Reduzindo a dimensionalidade dos dados com linear Álgebra
+
+Qualquer cientista de dados de nível intermediário deve ter um bom entendimento da álgebra linear e como fazer contas usando matrizes. Objetos de matriz e matriz são a estrutura de dados principal em computação analítica. Você precisa deles para executar operações matemáticas e estatísticas em conjuntos de dados grandes e multidimensionais.
+
+Conjuntos de dados com muitos recursos diferentes a serem rastreados simultaneamente. O uso de álgebra linear e métodos de aprendizado de máquina para reduzir a dimensionalidade de um conjunto de dados.
+
+### Decomposição de dados para reduzir a dimensionalidade 
+
+Para começar do começo, você precisa entender o conceito de vetor próprio. Conceituar
+um vetor próprio, pense em uma matriz chamada A. Agora considere um vetor diferente de zero chamado xe que Ax =
+λx para um escalar λ. Nesse cenário, λ escalar é chamado de autovalor da matriz A. É
+permitido assumir um valor de 0. Além disso, x é o vetor próprio que corresponde a λ, e
+novamente, não é permitido ter um valor zero.
+
+Método de álgebra linear chamada decomposição de valor singular (SVD), você pode reduzir a dimensionalidade do seu conjunto de dados - ou o número de recursos que você acompanha ao realizar uma análise. Redução de dimensão algoritmos são opções ideais se você precisar compactar seu conjunto de dados e também remover redundantes informação e ruído.
+
+O método de álgebra linear SVD decompõe a matriz de dados nas três matrizes resultantes mostrado na Figura. O produto dessas matrizes, quando multiplicadas, devolve sua matriz original. O SVD é útil quando você deseja remover informações redundantes compactando seu conjunto de dados.
+
+![As redes neurais são camadas conectadas de unidades neurais artificiais](/pos-uel-big-data/fundamentos-big-data-2/images/figura5-1.png "As redes neurais são camadas conectadas de unidades neurais artificiais")
+
