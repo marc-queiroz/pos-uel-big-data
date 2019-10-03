@@ -8,7 +8,7 @@ categories: pos uel correlação pearson kaggle jupyter notebook python3 2019
 
 ## Precisão e a eficiência do modelo
 
-Ao analisar um teste de detecção de doença para bebês recém-nascido, conseguimos uma precisão de 98%. Mas o que isso realmente significa? O teste foi realizado para bebês com nome Luke.
+Ao analisar um teste de detecção de doença para bebês recém-nascido, conseguimos uma precisão de 98%. Mas o que isso realmente significa? O teste em questão foi realizado para bebês com nome Luke.
 
 Como veremos a seguir, esse teste possui mesmo mais de 98% de precisão. Apesar disso, é um teste incrivelmente estúpido e uma boa ilustração do motivo pelo qual nós não usamos “precisão” para medir a eficiência de um modelo.
 
@@ -35,23 +35,25 @@ Podemos usar isso então para computar diversas estatísticas sobre o desempenho
 
 ```python
 def accuracy(tp, fp, fn, tn):
+  correct = tp + tn
+  total = tp + fp + fn + tn
+  return correct / total
 
-correct = tp + tn
-total = tp + fp + fn + tn
-return correct / total
 print accuracy(70, 4930, 13930, 981070)      # 0.98114
 ```
 Parece um número bem interessante. Mas, evidentemente, não é um bom teste, o que significa que não deveríamos colocar muita crença na acurácia bruta.
 É comum considerar a combinação de precisão e sensibilidade. Exatidão significa o quão precisas nossas previsões positivas eram:
 ```python
 def precision(tp, fp, fn, tn):
-return tp / (tp + fp)
+  return tp / (tp + fp)
+
 print precision(70, 4930, 13930, 981070)      # 0.014
 ```
 A sensibilidade mede qual fração dos positivos nossos modelos identificam:
 ```python
 def recall(tp, fp, fn, tn):
-return tp / (tp + fn)
+  return tp / (tp + fn)
+
 print recall(70, 4930, 13930, 981070)      # 0.005
 ```
 Ambos são números terríveis, refletindo um modelo terrível.
@@ -59,9 +61,9 @@ Ambos são números terríveis, refletindo um modelo terrível.
 
 ```python
 def f1_score(tp, fp, fn, tn):
-p = precision(tp, fp, fn, tn)
-r = recall(tp, fp, fn, tn)
-return 2 * p * r / (p + r)
+  p = precision(tp, fp, fn, tn)
+  r = recall(tp, fp, fn, tn)
+  return 2 * p * r / (p + r)
 ```
 Essa é a média harmônica (http://en.wikipedia.org/wiki/Harmonic_mean) da acurácia e sensibilidade e se acha necessariamente encontrada entre elas.
 Geralmente, a escolha de um modelo implica em um compromisso entre acurácia e sensibilidade. Um modelo que prevê “sim” quando se está um pouco confiante provavelmente terá uma sensibilidade alta mas uma acurácia baixa; um modelo que prevê “sim” somente quando está extremamente confiante provavelmente terá uma sensibilidade baixa e uma acurácia alta.

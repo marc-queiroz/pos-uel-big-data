@@ -8,23 +8,36 @@ categories: pos uel SVD kaggle jupyter notebook python3 2019
 
 [Kaggle SVD example](https://www.kaggle.com/marcqueiroz/simple-svd-movie-recommender)
 
-### Reduzindo a dimensionalidade dos dados com linear Álgebra
+### Reduzindo a dimensionalidade dos dados com álgebra linear
 
-Qualquer cientista de dados de nível intermediário deve ter um bom entendimento da álgebra linear e como fazer contas usando matrizes. Objetos de matriz e matriz são a estrutura de dados principal em computação analítica. Você precisa deles para executar operações matemáticas e estatísticas em conjuntos de dados grandes e multidimensionais.
+Qualquer cientista de dados de nível intermediário deve ter um bom entendimento da álgebra linear e como fazer contas usando matrizes. Objetos de vetor e matriz são a estrutura de dados básica em computação analítica. Você precisa deles para executar operações matemáticas e estatísticas em conjuntos de dados grandes e multidimensionais.
 
 Conjuntos de dados com muitos recursos diferentes a serem rastreados simultaneamente. O uso de álgebra linear e métodos de aprendizado de máquina para reduzir a dimensionalidade de um conjunto de dados.
 
 ### Decomposição de dados para reduzir a dimensionalidade 
 
-Para começar do começo, você precisa entender o conceito de vetor próprio. Conceituar
-um vetor próprio, pense em uma matriz chamada A. Agora considere um vetor diferente de zero chamado xe que Ax =
-λx para um escalar λ. Nesse cenário, λ escalar é chamado de autovalor da matriz A. É
-permitido assumir um valor de 0. Além disso, x é o vetor próprio que corresponde a λ, e
+Entendendo o conceito de auto vetor, pense em uma matriz chamada A. Agora considere um vetor diferente de zero chamado **x** e que Ax =
+λx para um escalar λ. Nesse cenário, λ escalar é chamado de autovalor da matriz A. Ele pode assumir
+valor de 0. Além disso, x é o vetor próprio que corresponde a λ, e
 novamente, não é permitido ter um valor zero.
 
-Método de álgebra linear chamada decomposição de valor singular (SVD), você pode reduzir a dimensionalidade do seu conjunto de dados - ou o número de recursos que você acompanha ao realizar uma análise. Redução de dimensão algoritmos são opções ideais se você precisar compactar seu conjunto de dados e também remover redundantes informação e ruído.
+Método de álgebra linear chamada decomposição de valor singular (SVD), você pode reduzir a dimensionalidade do seu conjunto de dados - ou o número de recursos que você acompanha ao realizar uma análise. Algoritmos de redução de dimensão algoritmos são opções ideais se você precisar compactar seu conjunto de dados e também remover informações redundates e ruídos.
 
-O método de álgebra linear SVD decompõe a matriz de dados nas três matrizes resultantes mostrado na Figura. O produto dessas matrizes, quando multiplicadas, devolve sua matriz original. O SVD é útil quando você deseja remover informações redundantes compactando seu conjunto de dados.
+O método de álgebra linear SVD decompõe a matriz de dados nas três matrizes resultantes mostrado na Figura abaixo. O produto dessas matrizes, quando multiplicadas, devolve sua matriz original. O SVD é útil quando você deseja remover informações redundantes compactando seu conjunto de dados.
 
-![As redes neurais são camadas conectadas de unidades neurais artificiais](/pos-uel-big-data/fundamentos-big-data-2/images/figura5-1.png "As redes neurais são camadas conectadas de unidades neurais artificiais")
+Dê uma olhada na figura:
 
+![SVD para decompor os dados](/pos-uel-big-data/fundamentos-big-data-2/images/figura5-1.png "SVD para decompor os dados")
+
+# A = u * S * v
+
+* **R:** Esta é a matriz que contém todos os seus dados originais.
+* **u:** esse é um vetor singular à esquerda (um autovetor) de A e contém todos os elementos importantes, não
+redundantes sobre as observações de seus dados.
+* **v:** Este é um autovetor singular à direita de A. Ele contém todas as informações importantes e não-redundantes, sobre colunas nos recursos do seu conjunto de dados.
+* **S:** Esta é a raiz quadrada do autovetor de A. Ele contém todas as informações sobre o
+procedimentos realizados durante a compressão.
+
+Embora possa parecer complicado, é bem simples. Imagine que você compactou seu conjunto de dados e resultou em uma matriz S que soma 100. Se o primeiro valor em S for 97 e o segundo for 94, isso significa que as duas primeiras colunas contêm 94% das informações do conjunto de dados. Em outras palavras, as duas primeiras colunas da matriz u e as duas primeiras linhas da matriz v contêm 94% das informações importantes mantidas em seu conjunto de dados original, A. Para isolar apenas as informações importantes e não redundantes, você mantem apenas essas duas colunas e descarte o restante.
+
+Ao reconstruir sua matriz usando o produto escalar S, u e v, você provavelmente notará que a matriz resultante não corresponde exatamente ao seu conjunto de dados original. Não se preocupe! Esses são os dados que permanecem depois que grande parte da redundância e ruído das informações foram filtradas pelo SVD.
