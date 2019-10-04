@@ -2,7 +2,7 @@
 layout: post
 title:  "Explorando Probabilidade e Estatísticas Inferenciais"
 date:   2019-09-21 08:00:00 -0300
-categories: pos uel correlação pearson kaggle jupyter notebook python3 2019
+categories: pos uel classification statistics probability naive bayes
 ---
 [Método Naive Bayes para classificação de spam usando a lista Tabu (Traduzido para o português)](https://www.kaggle.com/marcqueiroz/m-todo-naive-bayes-para-classifica-o-de-spam)
 

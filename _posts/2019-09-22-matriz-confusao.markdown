@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Matriz Confusão"
+title:  "Matriz Confusão em Python"
 date:   2019-09-29 08:00:00 -0300
-categories: pos uel ML machine learning
+categories: pos uel matriz confusão python 
 ---
 
 ## Matriz Confusão com Python

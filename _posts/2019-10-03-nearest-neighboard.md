@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: page 
 title:  "K-Vizinhos Mais Próximos"
 date:   2019-10-03 08:00:00 -0300
-categories: pos uel ML machine learning
+categories: pos uel nearest neighbors 
 ---
 
-[Binder: Nearest Neighbors](https://mybinder.org/v2/gh/marc-queiroz/data-science-from-scratch/master)
+# K-Vizinhos Mais Próximos
+
+[Binder: Example Nearest Neighbors](https://mybinder.org/v2/gh/marc-queiroz/data-science-from-scratch/master)
 
 
 Imagine que você está tentando prever como eu vou votar nas próximas eleições presidenciais. Se você não sabe mais nada sobre mim (e se você tiver os dados), uma abordagem lógica é considerar como meus vizinhos estão planejando votar. Como eu moro no centro de Seattle, meus vizinhos estão planejando votar no candidato democrata, o que sugere que o “candidato Democrata” é um bom palpite pra mim também.

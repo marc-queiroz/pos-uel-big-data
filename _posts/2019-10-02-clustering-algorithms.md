@@ -2,7 +2,7 @@
 layout: post
 title:  "Cinco algoritmos de clusterização"
 date:   2019-09-29 08:00:00 -0300
-categories: pos uel ML machine learning
+categories: pos uel clustering algorithms data scientists
 ---
 
 [Post original: The 5 Clustering Algorithms Data Scientists Need to Know](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68)
