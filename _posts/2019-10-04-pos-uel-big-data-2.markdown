@@ -3,6 +3,7 @@ layout: post
 title:  "Pós UEL - Fundamentos Big Data"
 date:   2019-10-04 14:00:00 -0300
 categories: pos uel big-data data-science computacao 2019
+published: false
 ---
 
 Sejam bem-vindos a segunda aula do curso de Fundamentos em Big Data.

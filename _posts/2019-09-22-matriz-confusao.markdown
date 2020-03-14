@@ -3,6 +3,7 @@ layout: post
 title:  "Matriz Confusão em Python"
 date:   2019-09-29 08:00:00 -0300
 categories: pos uel matriz confusão python 
+published: false
 ---
 
 ## Matriz Confusão com Python

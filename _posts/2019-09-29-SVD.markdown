@@ -3,6 +3,7 @@ layout: post
 title:  "SVD - Singular Value Decomposition"
 date:   2019-09-21 08:00:00 -0300
 categories: pos uel SVD kaggle jupyter notebook python3 2019
+published: false
 ---
 ## SVD - Decomposição em valores singulares
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Explorando Probabilidade e Estatísticas Inferenciais"
 date:   2019-09-21 08:00:00 -0300
 categories: pos uel classification statistics probability naive bayes
+published: false
 ---
 [Método Naive Bayes para classificação de spam usando a lista Tabu (Traduzido para o português)](https://www.kaggle.com/marcqueiroz/m-todo-naive-bayes-para-classifica-o-de-spam)
 

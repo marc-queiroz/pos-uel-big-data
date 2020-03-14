@@ -3,6 +3,7 @@ layout: post
 title:  "Coeficiente de correlação de Pearson"
 date:   2019-09-21 08:00:00 -0300
 categories: pos uel correlação pearson kaggle jupyter notebook python3 2019
+published: false
 ---
 ## Coeficiente de correlação de Pearson 
 

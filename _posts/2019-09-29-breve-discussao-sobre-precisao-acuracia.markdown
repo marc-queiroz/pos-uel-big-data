@@ -3,6 +3,7 @@ layout: post
 title:  "Breve discussão sobre precisão e acurácia"
 date:   2019-09-21 08:00:00 -0300
 categories: pos uel precision accuracy recall sensibility f1_score
+published: false
 ---
 <!-- [Método Naive Bayes para classificação de spam usando a lista Tabu (Traduzido para o português)](https://www.kaggle.com/marcqueiroz/m-todo-naive-bayes-para-classifica-o-de-spam) -->
 

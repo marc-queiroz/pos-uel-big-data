@@ -3,6 +3,7 @@ layout: page
 title:  "K-Vizinhos Mais Próximos"
 date:   2019-10-03 08:00:00 -0300
 categories: pos uel nearest neighbors 
+published: false
 ---
 
 # K-Vizinhos Mais Próximos

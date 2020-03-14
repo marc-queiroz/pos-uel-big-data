@@ -3,6 +3,7 @@ layout: post
 title:  "Algoritmos utilizados no aprendizado de máquina"
 date:   2019-09-29 08:00:00 -0300
 categories: pos uel ML machine learning algorithms
+published: false
 ---
 ## Selecionando algoritmos com base na função
 

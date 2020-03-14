@@ -3,6 +3,7 @@ layout: post
 title:  "Pós UEL - Fundamentos Big Data"
 date:   2019-09-13 16:00:00 -0300
 categories: pos uel big-data data-science computacao 2019
+published: false
 ---
 ## Bem-vindos a disciplina de pós gradução, Fundamentos em Big Data.
 
