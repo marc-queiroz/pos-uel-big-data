@@ -23,7 +23,7 @@ Os vizinhos mais próximos é um dos modelos preditivos mais simples que existe.
 
 * Uma premissa de que pontos que estão perto um do outro são similares
 
-A maioria das técnicas que veremos neste livro consideram o conjunto de dados como um todo a fim de aprender padrões nos dados. Os vizinhos mais próximos, por outro lado, rejeitam muitas informações conscientemente, uma vez que a previsão para cada ponto novo depende somente de alguns pontos mais próximos.
+A maioria das modelagens consideram o conjunto de dados como um todo, a fim de aprender padrões nos dados. Os vizinhos mais próximos, por outro lado, rejeitam muitas informações conscientemente, uma vez que a previsão para cada ponto novo depende somente de alguns pontos mais próximos.
 
 Mais ainda, os vizinhos mais próximos provavelmente não vão lhe ajudar a entender os fatores determinantes de quaisquer fenômenos os quais você esteja considerando. Prever os meus votos baseados nos votos dos meus vizinhos não lhe diz muito sobre o que me faz votar do meu jeito, enquanto que algum modelo alternativo que prevê meu voto baseado (digamos) no meu salário e no meu estado civil talvez possa dizer.
 
